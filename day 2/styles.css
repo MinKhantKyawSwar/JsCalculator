@@ -1,0 +1,48 @@
+*{
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+}
+
+.container{
+    color: white;
+    text-align: center;
+    
+}
+
+.container .create-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background: purple;
+    color: wheat;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    min-height: 120px;
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 8px;
+    color: black;
+    text-align: left;
+}
+
+.delete-button{
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    margin: -50px 0 0 -6px;
+    background: white;
+    outline: none;
+    border: none;
+    border-radius: 0 0 8px 0;
+    cursor: pointer;
+}
+
+.delete-button:hover{
+    background-color: #e01b1b;
+    color: white;
+}
